@@ -27,6 +27,6 @@
   transform: translateX(-50%);
   text-align: center;
   color: white;
-  font-size: 3em;
+  font-size: 4em;
   animation: subirTexto 2s ease-out forwards;
 }
