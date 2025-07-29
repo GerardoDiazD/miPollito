@@ -1,0 +1,32 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('IMG_0172.jpg'); /* 👈 Asegúrate que esté en la misma carpeta que el HTML */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    @keyframes subirTexto {
+        from {
+            transform: translateY(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+}
+
+.texto-animado {
+  position: absolute;
+  bottom: 180px;
+  left: 10%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  animation: subirTexto 2s ease-out forwards;
+}
